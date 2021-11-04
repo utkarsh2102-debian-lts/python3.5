@@ -1,3 +1,13 @@
+python3.5 (3.5.3-1+deb9u5) stretch-security; urgency=high
+
+  * Non-maintainer upload by the LTS Security Team.
+  * Add patch to fix http client infinite line reading (DoS)
+    after a HTTP 100 Continuefix. (Fixes: CVE-2021-3737)
+  * Add patch to fix ReDoS in urllib
+    AbstractBasicAuthHandler. (Fixes: CVE-2021-3733)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Thu, 04 Nov 2021 20:59:10 +0530
+
 python3.5 (3.5.3-1+deb9u4) stretch-security; urgency=medium
 
   * Non-maintainer upload by the LTS Security Team.
